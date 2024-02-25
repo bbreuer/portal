@@ -6,6 +6,7 @@
     <title>The Portal</title>
     <link href="output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="styles.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poiret+One&family=Poppins&family=Raleway&family=Single+Day&display=swap" rel="stylesheet">
 
@@ -13,11 +14,11 @@
 <body class="m-0 p-0 bg-black">
     <div class="fixed top-0 left-0 w-screen h-screen z-20">
         
-        <div class="flex absolute justify-center h-screen w-screen items-center flex-col z-20">
+        <div class="flex absolute justify-center h-screen w-screen items-center flex-col z-40">
             <img class="h-52 sm:h-80 mb-20 fade-in" src="newportallogo.png">
         </div>
     
-        <div class="flex justify-center absolute h-screen w-screen items-center top-0 mt-20 gap-10 z-20 text-xl sm:text-3xl fade-in">
+        <div class="flex justify-center absolute h-screen w-screen items-center top-0 mt-20 gap-10 z-40 text-xl sm:text-3xl fade-in">
             <a href="wheretobegin.html"><div class="text-white font-portalFont hover:cursor-pointer hover:text-cyan-300 transform transition hover:scale-110">Where to begin</div></a>
             <a href="events.html"><div class="text-white font-portalFont hover:cursor-pointer hover:text-cyan-300 transform transition hover:scale-110">Events</div></a>
             <a href="contact.html"><div class="text-white font-portalFont hover:cursor-pointer hover:text-cyan-300 transform transition hover:scale-110">Contact</div></a>
@@ -25,13 +26,15 @@
     
     </div>
 
+    <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
 
-    <footer class="fixed bottom-0 w-full bg-black text-white p-4">
+
+    <footer class="fixed bottom-0 w-full bg-black text-white p-4 z-40">
         <div class="text-center">
             <p>Copyright &copy; 2024 The Portal</p>
         </div>
     </footer>
-
+<script src="stars.js"></script>
 </body>
 
 </html>

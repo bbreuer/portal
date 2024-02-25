@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;  
+}
+
+body {
+  overflow: hidden;
+  background-color: black;
+}
+
+@keyframes twinkle {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
