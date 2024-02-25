@@ -17,9 +17,24 @@
                 <a href="index.html"><img class="h-24 hover:cursor-pointer fade-in" src="newportallogo.png"></a>
             </div>
             <div class="gap-10 text-lg font-portalFont sm:flex mr-14 hidden text-white">
-                <h1 class="hover:cursor-pointer hover:text-cyan-300">Home</h1>
-                <h1 class="hover:cursor-pointer hover:text-cyan-300">Where to Begin</h1>
-                <h1 class="hover:cursor-pointer hover:text-cyan-300"> Events</h1>
+                <a href="index.html"><h1 class="hover:cursor-pointer hover:text-cyan-300">Home</h1></a>
+                <a href="wheretobegin.html"><h1 class="hover:cursor-pointer hover:text-cyan-300">Where to Begin</h1></a>
+                <a href="events.html"><h1 class="hover:cursor-pointer hover:text-cyan-300">Events</h1></a>
+            </div>
+
+            <div class="sm:hidden flex">
+                <input type="checkbox" id="drawer-toggle" class="relative sr-only peer">
+                <label for="drawer-toggle" class="absolute top-0 right-0 inline-block p-4 transition-all duration-500 bg-black rounded-lg peer-checked:right-64">
+                    <img class="h-10" src="bars-solid.svg">
+                </label>
+                <div class="fixed top-0 right-0 z-20 w-64 h-full transition-all duration-500 transform translate-x-full bg-blue-950 shadow-lg peer-checked:translate-x-0">
+                    <div class="px-6 py-4 flex flex-col justify-center gap-4">
+                        <h2 class="font-semibold text-white text-center text-2xl">Menu</h2>
+                        <a href="index.html"><p class="text-black p-4 text-xl text-center bg-white rounded-lg mt-10">Home</p></a>
+                        <a href="events.html"><p class="text-black p-4 text-xl text-center bg-white rounded-lg">Events</p></a>
+                        <a href="contact.html"><p class="text-black p-4 text-xl text-center bg-white rounded-lg">Contact</p></a>
+                    </div>
+                </div>
             </div>
     </div>
     
