@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Portal</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poiret+One&family=Poppins&family=Raleway&family=Single+Day&display=swap" rel="stylesheet">
+
+</head>
+<body class="m-0 p-0 bg-black">
+    
+    <div class="bg-black h-20 flex sm:justify-end justify-center items-center">
+            <div class="sm:absolute relative top-0 left-0 ml-4 flex justify-center align-middle">
+                <a href="index.html"><img class="h-24 hover:cursor-pointer fade-in" src="newportallogo.png"></a>
+            </div>
+            <div class="gap-10 text-lg font-portalFont sm:flex mr-14 hidden text-white">
+                <a href="index.html"><h1 class="hover:cursor-pointer hover:text-cyan-300">Home</h1></a>
+                <a href="wheretobegin.html"><h1 class="hover:cursor-pointer hover:text-cyan-300">Where to Begin</h1></a>
+                <a href="events.html"><h1 class="hover:cursor-pointer hover:text-cyan-300">Events</h1></a>
+                <a href="contact.html"><p class="text-black p-4 text-xl text-center bg-white rounded-lg">Contact</p></a>
+            </div>
+
+            <div class="sm:hidden flex">
+                <input type="checkbox" id="drawer-toggle" class="relative sr-only peer">
+                <label for="drawer-toggle" class="absolute top-0 right-0 inline-block p-4 transition-all duration-500 bg-black rounded-lg peer-checked:right-64">
+                    <img class="h-10" src="bars-solid.svg">
+                </label>
+                <div class="fixed top-0 right-0 z-20 w-64 h-full transition-all duration-500 transform translate-x-full bg-blue-950 shadow-lg peer-checked:translate-x-0">
+                    <div class="px-6 py-4 flex flex-col justify-center gap-4">
+                        <h2 class="font-semibold text-white text-center text-2xl mt-5">Menu</h2>
+                        <a href="index.html"><p class="text-black p-4 text-xl text-center bg-white rounded-lg mt-10">Home</p></a>
+                        <a href="wheretobegin.html"><p class="text-black p-4 text-xl text-center bg-white rounded-lg">Where to begin</p></a>
+                        <a href="events.html"><p class="text-black p-4 text-xl text-center bg-white rounded-lg">Events</p></a>
+                        <a href="contact.html"><p class="text-black p-4 text-xl text-center bg-white rounded-lg">Contact</p></a>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+    
+        <div class="bg-blue-950 p-10 sm:p-20 h-52 w-full top-0 left-0 flex flex-col items-center justify-center">
+            <h1 class="text-xl sm:text-3xl text-center text-white mt-10">Gallery</h1>
+            <p class="p-2 pb-10 text-sm sm:text-lg text-center text-white">Explore through our selection of unique photos</p>  
+        </div>
+
+
+
+    
+
+<div id="gallery" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/1.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item="active">
+            <img src="portal pics/2.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/3.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/4.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/5.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/6.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/7.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/8.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/9.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/10.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/11.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out fade-in" data-carousel-item>
+            <img src="portal pics/12.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+
+
+    
+    
+    <div class="bg-black p-10 sm:p-20 h-10 w-full top-0 left-0 flex flex-col items-center justify-center">
+
+    </div>
+
+    <footer class="fixed bottom-0 w-full bg-black text-white p-4">
+        <div class="text-center">
+            <p>Copyright &copy; 2024 The Portal</p>
+        </div>
+    </footer>
+    
+<script src="drawer.js"></script>
+<script src="cara.js"></script>
+</body>
+
+</html>

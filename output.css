@@ -700,6 +700,10 @@ video {
   height: 13rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-72 {
   height: 18rem;
 }
@@ -742,6 +746,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-1 {
@@ -901,6 +909,10 @@ video {
 
 .align-middle {
   vertical-align: middle;
+}
+
+.font-portalFont {
+  font-family: portalFont;
 }
 
 .text-2xl {
